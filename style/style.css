@@ -1,0 +1,82 @@
+
+
+body{
+    background-image:   url(../img/menu2.jpg);
+    background-size: cover; 
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: bisque;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+    /* con la linea de abajo solamente se edita el fondo, color y ultimo argumento opacidad */
+    background-color: rgba(111, 115, 117, 0.8.);
+    margin: 5px;
+    
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: bisque;
+    font-style: normal;
+    text-align: center;
+    text-decoration:underline bisque ;
+    
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+}
+.plato1{
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 3px;
+    margin-left: auto;
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    color: bisque;
+}
+.plato2{
+    margin-top: 3;
+    margin-left: auto;
+    background-color: rgba(3, 3, 3, 0.55);
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    color:bisque ;
+}
+.plato3{
+    margin-right: auto;
+    color: bisque;
+    margin-top: 3px;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    height: 500px;
+    width: 350px;
+}
+
+.boton{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    
+}
+.button1 {
+    margin-right: 15px;
+    padding: auto;
+    justify-content: center;
+    background-color: black; 
+    color: bisque; 
+    padding: 10px 20px; 
+    border: 1px solid bisque; 
+    border-radius: 5px; 
+    text-align: center; 
+    font-size: 16px; 
+}
+
+.button1:hover {
+    background-color: gold;
+    color: black; 
+}

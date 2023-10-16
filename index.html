@@ -1,0 +1,41 @@
+<!-- Esta pagina es un proyecto que en un futuro la va a usar mi hermano en su trabajo
+asi que segun las necesides de el y sus compañeros decidi armarla. Lo que va a hacer esta pagina
+es de manera aleatoria preparar un menu que conste de una entrada, plato principal y postre. Las
+funcionalidades se las dare en un futuro con JavaScript. -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixer</title>
+</head>
+<body>
+    <h1>Mixer de platos</h1>
+    <div class="Menu">
+        
+        <div class="plato1" id="app">
+            <h2>Entrada:</h2>
+            <div>
+                <h3>{{datos[random].name}}</h3>
+                <p>{{datos[random].description}}</p>
+            </div>
+        
+        </div> 
+
+        <div class="plato2" id="plato2"></div>
+
+        <div class="plato3" id="plato3"></div>
+    </div>
+    <div class="boton">
+    <button class="button1">Platos Aleatorios</button>
+    <button class="button1">Agregar o quitar platos</button>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- <script src="./platos.json"></script> -->
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
