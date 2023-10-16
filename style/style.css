@@ -27,7 +27,7 @@ h2{
 .Menu{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
 }
 .plato1{
     background-color: rgba(0, 0, 0, 0.6);
