@@ -3,7 +3,7 @@
 body{
     background-image:   url(../img/menu2.jpg);
     background-size: cover; 
-    
+    width:100%;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -25,9 +25,12 @@ h2{
     
 }
 .Menu{
+    align-items: center;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+
     
 }
 .plato1{
