@@ -1,0 +1,23 @@
+{
+    "postres":[
+        {
+            "id":1,
+            "name":"Tarta Vianner",
+            "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
+        },
+        {
+            "id":2,
+            "name":"Gelato",
+            "description":"El Gelato es originario de Italia, sin embargo existen gelaterias en muchos países de Latinoamérica y Europa en donde se respetan los originales modos de preparación. Este postre es exquisito y sumamente saludable. Como dicen en Italia: “Un verdadero arte culinario”. La diferencia entre este postre y el helado son los productos. Para preparar gelato se utilizan productos 100% naturales y no tienen tanta grasa ni azúcar como el helado, además son mucho más cremosos. Si aún no has probado un gelato, no dudes en hacerlo y date un gustito"
+        },
+        {
+            "id":3,
+            "name":"Tiramisú",
+            "description":"Es otro postre frío de origen italiano y está hecho a base de café, licor y crema. Su preparación es sencilla, solo hay que humedecer un bizcocho con una mezcla de café y licor y superponerlo en capas, alternando entre la crema y el bizcocho. Sin embargo existen muchas variantes de acuerdo a los lugares en donde se ha vuelto muy famoso. Y como no, si es realmente delicioso."
+        },{
+            "id":4,
+            "name":"Panna Cotta",
+            "description":"Panna Cotta, es un dulce especial de origen italiano, parecido al flan y con una textura suave y gelatinosa. Se considera uno de los postres más fáciles de preparar y también uno de los más famosos en este país. Seguro nunca escuchaste hablar de él, pero si lo pruebas no lo olvidarás nunca."
+        }
+    ]
+}

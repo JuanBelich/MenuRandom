@@ -3,8 +3,10 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            url:"./js/datos.json",
-            datos:[],
+            url:"./js/entrada.json",
+            url2:"./js/postres.json",
+            entrada:[],
+            postres:[],
             random:(Math.floor(Math.random()*5)),
         }
     },
@@ -13,52 +15,23 @@ createApp({
             fetch(url)
                 .then(response => response.json())
                 .then(data=>{
-                    console.log(data)
-                    this.datos=data.entrada
+                    this.entrada=data.entrada
                     }
                 );
-        }
-    },
-    created(){
+            },
+        // fetchdata(url2){
+        //     fetch(url2)
+        //         .then(response => response.json())
+        //         .then(data2=>{
+        //             this.postres=data2.postres
+        //             }
+        //         );
+        //     },
+        },
+        created(){
         this.fetchdata(this.url)
+        // this.fetchdata(this.url2)
     }
 
 
 }).mount('#app')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let indice=entrada[Math.floor(Math.random()*entrada.length)];
-
-// document.getElementById(id="plato1").innerHTML= 
-//                     `<h2 style="text-align:center";>${entrada[Math.floor(Math.random()*entrada.length)].nombre}</h2>;
-//                     <p> ${entrada[Math.floor(Math.random()*entrada.length)].receta} <br></p>`;
-
