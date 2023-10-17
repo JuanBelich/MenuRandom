@@ -2,21 +2,31 @@
     "entrada":[
         {
             "id": 1,
-            "name": "ñoquis",
+            "name": "Esparragos en panceta gratinados",
             "description": "El Chef Parrillero ofrece una variada carta especializada en carnes a la parrilla. Nos distinguimos por la sazón, la calidad de los cortes, una surtida barra internacional y sobre todo nuestra esmerada atención. Contamos con estacionamiento privado."
         },
         {
             "id": 2,
-            "name": "aaaaa",
+            "name": "Ensalada tibia de pollo",
             "description": "El Chef Parrillero ofrece una variada carta especializada en carnes a la parrilla. Nos distinguimos por la sazón, la calidad de los cortes, una surtida barra internacional y sobre todo nuestra esmerada atención. Contamos con estacionamiento privado."
         },{
             "id": 3,
-            "name": "bbbbb",
+            "name": "Melon con jamon",
             "description": "HOLAHOLAGHOLAHOLA stinguimos por la sazón, la calidad de los cortes, una surtida barra internacional y sobre todo nuestra esmerada atención. Contamos con estacionamiento privado."
         },
         {
             "id": 4,
-            "name": "cccccc",
+            "name": "Creppes de verdura",
+            "description": "El Chef Parrillero ofrece una variada carta especializada en carnes a la parrilla. Nos distinguimos por la sazón, la calidad de los cortes, una surtida barra internacional y sobre todo nuestra esmerada atención. Contamos con estacionamiento privado."
+        },
+        {
+            "id": 5,
+            "name": "Ensalada Caesar",
+            "description": "El Chef Parrillero ofrece una variada carta especializada en carnes a la parrilla. Nos distinguimos por la sazón, la calidad de los cortes, una surtida barra internacional y sobre todo nuestra esmerada atención. Contamos con estacionamiento privado."
+        },
+        {
+            "id": 6,
+            "name": "Ensalada Waldorf con jamon bocatti",
             "description": "El Chef Parrillero ofrece una variada carta especializada en carnes a la parrilla. Nos distinguimos por la sazón, la calidad de los cortes, una surtida barra internacional y sobre todo nuestra esmerada atención. Contamos con estacionamiento privado."
         }       
     ]
