@@ -96,14 +96,15 @@ let postre=[
     }
 ];
 
-let random=(Math.floor(Math.random()*6));
+let random=(Math.floor(Math.random()*entrada.length));
 document.getElementById("entrada").innerHTML=entrada[random].name;
 document.getElementById("entrada2").innerHTML=entrada[random].description;
 
-let random2=(Math.floor(Math.random()*8));
+let random2=(Math.floor(Math.random()*principal.length));
 document.getElementById("principal").innerHTML=principal[random2].name;
 document.getElementById("principal2").innerHTML=principal[random2].description;
 
-let random3=(Math.floor(Math.random()*4));
+let random3=(Math.floor(Math.random()*postre.length));
 document.getElementById("postre").innerHTML=postre[random3].name;
 document.getElementById("postre2").innerHTML=postre[random3].description;
+
