@@ -26,24 +26,24 @@ funcionalidades se las dare en un futuro con JavaScript. -->
     </nav>
     
     <main>
-        <section class="Menu" id="app">
+        <section class="Menu" >
         
             <article class="plato1" >
-                <h2>Entrada</h2>
-                <div>
-                    <h3>{{entrada[random].name}}</h3>
-                    <p>{{entrada[random].description}}</p>
-                </div>
-            </article> 
-
-            <article class="plato2">
-                <h2>Plato Principal</h2>
-                
+                <h2>Entradas</h2>
+                <h3 id="entrada"></h3>
+                <p id="entrada2"></p>
             </article>
 
-            <article class="plato3">
+            <article class="plato2" >
+                <h2>Plato Principal</h2>
+                <h3 id="principal"></h3>
+                <p id="principal2"></p>
+            </article>>
+
+            <article class="plato3" >
                 <h2>Postres</h2>
-                
+                <h3 id="postre"></h3>
+                <p id="postre2"></p>
             </article>
 
         </section>
@@ -54,7 +54,8 @@ funcionalidades se las dare en un futuro con JavaScript. -->
         </footer>
 
     </main>
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    
     <script src="./js/main.js"></script>
+
 </body>
 </html>
