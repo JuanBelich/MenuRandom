@@ -2,31 +2,31 @@ let entrada=[
     {
         "id": 1,
         "name": "Esparragos en panceta gratinados",
-        "description": "Esparragos en panceta gratinados."
+        "description": "Los espárragos siempre fueron reconocidos como un alimento de elite y con un sabor muy delicado. Como toda verdura, tienen muchas formas de cocinarse, en este caso, les presento una receta en donde simplemente los gratinamos y cocinamos en el horno. Una delicia absoluta"
     },
     {
         "id": 2,
         "name": "Ensalada tibia de pollo",
-        "description": "Ensalada tibia de pollo"
+        "description": "La ensalada es una reminiscencia de la famosa ensalada rusa, también conocida como ensalada Olivier, que lleva el nombre del chef franco-belga que la creó."
     },{
         "id": 3,
         "name": "Melon con jamon",
-        "description": "Melon con jamon."
+        "description": "El melón con jamón es una especialidad típica de la cocina española, que se encuentra también en Francia e Italia y suele ser servida en los meses de primavera o verano."
     },
     {
         "id": 4,
         "name": "Creppes de verdura",
-        "description": "Creppes de verdura"
+        "description": "Estas crepes son una forma diferente de presentar la verdura, muy atractiva para que los niños se acostumbren a la presencia de ella dentro de su dieta."
     },
     {
         "id": 5,
         "name": "Ensalada Caesar",
-        "description": "Ensalada Caesar"
+        "description":"Una ensalada César es una ensalada de lechuga romana y croûtons (trozos de pan tostado) con jugo de limón, aceite de oliva, huevo, salsa Worcestershire, anchoas, ajo, mostaza de Dijon, queso parmesano y pimienta negra."
     },
     {
         "id": 6,
         "name": "Ensalada Waldorf con jamon bocatti",
-        "description": "Ensalada Waldorf con jamon bocatti"
+        "description": "La ensalada Waldorf es un plato que consiste en manzanas ácidas troceadas, frutos secos (en especial nueces), apio - tubérculo, o julianas de repollo blanco con las hojas o troncos del apio picada y mayonesa o algún aliño basado en la mayonesa."
     }       
 ]
 
@@ -35,12 +35,12 @@ let principal=[
     {
         "id":1,
         "name":"Pollo mechado con salsa de mostaza",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
+        "description":"falta"
     },
     {
         "id":2,
         "name":"Pollo al provenzal",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
+        "description":"Técnica de preparación que consiste en incorporar al alimento una mezcla de pan rallado, perejil, ajo picado, aceite de oliva o mantequilla y varias hierbas y especias típicas de la Provenza, de donde viene su nombre, entre las que se encuentran el tomillo, el romero, la albahaca, el orégano, el estragón y la lavanda."
     },
     {
         "id":3,
