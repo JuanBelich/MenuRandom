@@ -1,110 +1,19 @@
-let entrada=[
-    {
-        "id": 1,
-        "name": "Esparragos en panceta gratinados",
-        "description": "Los espárragos siempre fueron reconocidos como un alimento de elite y con un sabor muy delicado. Como toda verdura, tienen muchas formas de cocinarse, en este caso, les presento una receta en donde simplemente los gratinamos y cocinamos en el horno. Una delicia absoluta"
-    },
-    {
-        "id": 2,
-        "name": "Ensalada tibia de pollo",
-        "description": "La ensalada es una reminiscencia de la famosa ensalada rusa, también conocida como ensalada Olivier, que lleva el nombre del chef franco-belga que la creó."
-    },{
-        "id": 3,
-        "name": "Melon con jamon",
-        "description": "El melón con jamón es una especialidad típica de la cocina española, que se encuentra también en Francia e Italia y suele ser servida en los meses de primavera o verano."
-    },
-    {
-        "id": 4,
-        "name": "Creppes de verdura",
-        "description": "Estas crepes son una forma diferente de presentar la verdura, muy atractiva para que los niños se acostumbren a la presencia de ella dentro de su dieta."
-    },
-    {
-        "id": 5,
-        "name": "Ensalada Caesar",
-        "description":"Una ensalada César es una ensalada de lechuga romana y croûtons (trozos de pan tostado) con jugo de limón, aceite de oliva, huevo, salsa Worcestershire, anchoas, ajo, mostaza de Dijon, queso parmesano y pimienta negra."
-    },
-    {
-        "id": 6,
-        "name": "Ensalada Waldorf con jamon bocatti",
-        "description": "La ensalada Waldorf es un plato que consiste en manzanas ácidas troceadas, frutos secos (en especial nueces), apio - tubérculo, o julianas de repollo blanco con las hojas o troncos del apio picada y mayonesa o algún aliño basado en la mayonesa."
-    }       
-]
+let entrada=["Ensalada tricolor con tomates, zanahoria y temolachas","Brusqueta Capresse","Brusqueta Funghi","Torre de verduras escalivadas","Ensalada verde, manzana verde, queso azul y vinagreta de aceto","Tarta de jamon y queso","Bruschetta de champignones","Ensalada caprese","Jamon con palmitos","Pizzeta a la fugazzeta","Torre de berenjenas gratinadas","Sopa de verduras","Ensalada mix verdes con rabanitos y queso azul","Bruschetta con queso de cabra y cebolla caramelizada","Empanada de jamon y queso","Ceviche de salmon y mango","Panceta a la criolla","Ensalada mix verdes, queso azul y frutos secos","Fritatta de verdeo y hongos","Esparragos en panceta gratinados","Ensalada tibia de pollo","Melon con jamon","Creppes de verdura","Ensalada Caesar","Ensalada Waldorf con jamon bocatti"]
+
+let principal=["Pollo mechado con salsa de mostaza","Pollo al provenzal","Fetuccinis al verdeo","Chop Suey de ternera y arroz","Ravioles de salmon en crema de hierbas","Pollo al verdeo","Entrecorte al roquefort","Solomillo de cerdo al Malbec","Sorrentinos de jamon y queso con Filetto y albahaca","Solomillo de cerdo al ajillo","Carne de cerdo a la mostaza","Fetuccinis con Filetto y pesto","Matambre de ternera a la fugazzeta","Pechuga rellena","Ravioles de jamon y queso con salsa bolognesa"]
+
+let postre=["Tarta Vianner","Gelato","Tiramisú","Panna Cotta","Creppes tibios de durazno y nutella","Manzanas al horno","Ensalada de frutas o helado","Copa Melba","Torta de vainilla y chocolate con salsa de frutos rojos","Copa brownie","Clasico flan casero","Clasico Vigilante","Manjar Tower con helado","Panna cotta de malbec","Biscuit de chocolate y helado","Copa mendocina","Mil hojas con crema de chocolate","Copa jamaica","Creppes tibios de dulce de leche", "Chocotorta con frutos rojos", "Duraznos al chantilly","Copa oreo","Copa tiramisu","Copa chocolina","Mousse de mango, frutos rojos y crocante de chocolate","Chocotorta","Mousse de mango y crocante de chocolate","Banana split","Minitorta de durazno, crema y dulce de leche"];
 
 
-let principal=[
-    {
-        "id":1,
-        "name":"Pollo mechado con salsa de mostaza",
-        "description":"falta"
-    },
-    {
-        "id":2,
-        "name":"Pollo al provenzal",
-        "description":"Técnica de preparación que consiste en incorporar al alimento una mezcla de pan rallado, perejil, ajo picado, aceite de oliva o mantequilla y varias hierbas y especias típicas de la Provenza, de donde viene su nombre, entre las que se encuentran el tomillo, el romero, la albahaca, el orégano, el estragón y la lavanda."
-    },
-    {
-        "id":3,
-        "name":"Fetuccinis al verdeo",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
-    },
-    {
-        "id":4,
-        "name":"Chop Suey de ternera y arroz",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
-    },
-    {
-        "id":5,
-        "name":"Ravioles de salmon en crema de hierbas",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
-    },
-    {
-        "id":6,
-        "name":"Entrecorte al roquefort",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
-    },
-    {
-        "id":7,
-        "name":"Solomillo de cerdo al Malbec",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
-    },
-    {
-        "id":8,
-        "name":"Sorrentinos de jamon y queso con Filetto y albahaca",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
-    },
-]
 
-let postre=[
-    {
-        "id":1,
-        "name":"Tarta Vianner",
-        "description":"Este postre es básico para una vida feliz. La receta se ha adaptado a muchos países cambiando algunos ingredientes y formas de preparación, pero, de todas formas delicioso.Pero, cualquiera que sea la receta, sigue siendo un postre delicioso y es uno de los preferidos."
-    },
-    {
-        "id":2,
-        "name":"Gelato",
-        "description":"El Gelato es originario de Italia, sin embargo existen gelaterias en muchos países de Latinoamérica y Europa en donde se respetan los originales modos de preparación. Este postre es exquisito y sumamente saludable. Como dicen en Italia: “Un verdadero arte culinario”. La diferencia entre este postre y el helado son los productos. Para preparar gelato se utilizan productos 100% naturales y no tienen tanta grasa ni azúcar como el helado, además son mucho más cremosos. Si aún no has probado un gelato, no dudes en hacerlo y date un gustito"
-    },
-    {
-        "id":3,
-        "name":"Tiramisú",
-        "description":"Es otro postre frío de origen italiano y está hecho a base de café, licor y crema. Su preparación es sencilla, solo hay que humedecer un bizcocho con una mezcla de café y licor y superponerlo en capas, alternando entre la crema y el bizcocho. Sin embargo existen muchas variantes de acuerdo a los lugares en donde se ha vuelto muy famoso. Y como no, si es realmente delicioso."
-    },{
-        "id":4,
-        "name":"Panna Cotta",
-        "description":"Panna Cotta, es un dulce especial de origen italiano, parecido al flan y con una textura suave y gelatinosa. Se considera uno de los postres más fáciles de preparar y también uno de los más famosos en este país. Seguro nunca escuchaste hablar de él, pero si lo pruebas no lo olvidarás nunca."
-    }
-];
 
 let random=(Math.floor(Math.random()*entrada.length));
-document.getElementById("entrada").innerHTML=entrada[random].name;
-document.getElementById("entrada2").innerHTML=entrada[random].description;
+document.getElementById("entrada").innerHTML=entrada[random]
 
 let random2=(Math.floor(Math.random()*principal.length));
-document.getElementById("principal").innerHTML=principal[random2].name;
-document.getElementById("principal2").innerHTML=principal[random2].description;
+document.getElementById("principal").innerHTML=principal[random2];
 
 let random3=(Math.floor(Math.random()*postre.length));
-document.getElementById("postre").innerHTML=postre[random3].name;
-document.getElementById("postre2").innerHTML=postre[random3].description;
+document.getElementById("postre").innerHTML=postre[random3];
+
 
