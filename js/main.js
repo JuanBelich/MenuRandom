@@ -9,9 +9,12 @@ let random=(Math.floor(Math.random()*entrada.length));
 let randomE2=(Math.floor(Math.random()*entrada.length));
 let randomE3=(Math.floor(Math.random()*entrada.length));
 
-if (random == randomE2){
+
+if (random == randomE2 || random == randomE3 ){
+    random=(Math.floor(Math.random()*entrada.length));
+}else if(randomE2 == randomE3 || randomE2==random){
     randomE2=(Math.floor(Math.random()*entrada.length));
-}else if(random == randomE3){
+}else if(randomE3 == randomE2 || randomE3==random){
     randomE3=(Math.floor(Math.random()*entrada.length));
 }
 document.getElementById("entrada").innerHTML=entrada[random];
@@ -19,17 +22,19 @@ document.getElementById("entradaE2").innerHTML=entrada[randomE2];
 document.getElementById("entradaE3").innerHTML=entrada[randomE3];
 
 
+
 let randomP=(Math.floor(Math.random()*principal.length));
 let randomP2=(Math.floor(Math.random()*principal.length));
 let randomP3=(Math.floor(Math.random()*principal.length));
 
-if (randomP == randomP2){
-    randomP2=(Math.floor(Math.random()*principal.length));
-}else if(randomP == randomP3){
-    randomP3=(Math.floor(Math.random()*principal.length));
-}else if(randomP2==randomP3){
-    randomP3=(Math.floor(Math.random()*principal.length));
+if (randomP == randomP2 || randomP == randomP3 ){
+    randomP=(Math.floor(Math.random()*entrada.length));
+}else if(randomP2 == randomP3 || randomP2==randomP){
+    randomP2=(Math.floor(Math.random()*entrada.length));
+}else if(randomP3 == randomP2 || randomP3==randomP){
+    randomP3=(Math.floor(Math.random()*entrada.length));
 }
+
 document.getElementById("principal").innerHTML=principal[randomP];
 document.getElementById("principal2").innerHTML=principal[randomP2];
 document.getElementById("principal3").innerHTML=principal[randomP3];
@@ -38,7 +43,10 @@ document.getElementById("principal3").innerHTML=principal[randomP3];
 let randomPostre=(Math.floor(Math.random()*postre.length));
 let randomPostre2=(Math.floor(Math.random()*postre.length));
 
-if (randomPostre == randomPostre2){randomPostre=(Math.floor(Math.random()*principal.length));}
+if (randomPostre == randomPostre2){
+    randomPostre=(Math.floor(Math.random()*principal.length));
+}
+
 document.getElementById("postre").innerHTML=postre[randomPostre];
 document.getElementById("postre2").innerHTML=postre[randomPostre2];
 
