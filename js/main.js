@@ -5,15 +5,42 @@ let principal=["Pollo mechado con salsa de mostaza","Pollo al provenzal","Fetucc
 let postre=["Tarta Vianner","Gelato","Tiramisú","Panna Cotta","Creppes tibios de durazno y nutella","Manzanas al horno","Ensalada de frutas o helado","Copa Melba","Torta de vainilla y chocolate con salsa de frutos rojos","Copa brownie","Clasico flan casero","Clasico Vigilante","Manjar Tower con helado","Panna cotta de malbec","Biscuit de chocolate y helado","Copa mendocina","Mil hojas con crema de chocolate","Copa jamaica","Creppes tibios de dulce de leche", "Chocotorta con frutos rojos", "Duraznos al chantilly","Copa oreo","Copa tiramisu","Copa chocolina","Mousse de mango, frutos rojos y crocante de chocolate","Chocotorta","Mousse de mango y crocante de chocolate","Banana split","Minitorta de durazno, crema y dulce de leche"];
 
 
-
-
 let random=(Math.floor(Math.random()*entrada.length));
-document.getElementById("entrada").innerHTML=entrada[random]
+let randomE2=(Math.floor(Math.random()*entrada.length));
+let randomE3=(Math.floor(Math.random()*entrada.length));
 
-let random2=(Math.floor(Math.random()*principal.length));
-document.getElementById("principal").innerHTML=principal[random2];
+if (random == randomE2){
+    randomE2=(Math.floor(Math.random()*entrada.length));
+}else if(random == randomE3){
+    randomE3=(Math.floor(Math.random()*entrada.length));
+}
+document.getElementById("entrada").innerHTML=entrada[random];
+document.getElementById("entradaE2").innerHTML=entrada[randomE2];
+document.getElementById("entradaE3").innerHTML=entrada[randomE3];
 
-let random3=(Math.floor(Math.random()*postre.length));
-document.getElementById("postre").innerHTML=postre[random3];
+
+let randomP=(Math.floor(Math.random()*principal.length));
+let randomP2=(Math.floor(Math.random()*principal.length));
+let randomP3=(Math.floor(Math.random()*principal.length));
+
+if (randomP == randomP2){
+    randomP2=(Math.floor(Math.random()*principal.length));
+}else if(randomP == randomP3){
+    randomP3=(Math.floor(Math.random()*principal.length));
+}else if(randomP2==randomP3){
+    randomP3=(Math.floor(Math.random()*principal.length));
+}
+document.getElementById("principal").innerHTML=principal[randomP];
+document.getElementById("principal2").innerHTML=principal[randomP2];
+document.getElementById("principal3").innerHTML=principal[randomP3];
+
+
+let randomPostre=(Math.floor(Math.random()*postre.length));
+let randomPostre2=(Math.floor(Math.random()*postre.length));
+
+if (randomPostre == randomPostre2){randomPostre=(Math.floor(Math.random()*principal.length));}
+document.getElementById("postre").innerHTML=postre[randomPostre];
+document.getElementById("postre2").innerHTML=postre[randomPostre2];
+
 
 
